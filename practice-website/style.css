@@ -1,0 +1,67 @@
+.navbar{
+    background-color: blue !important;
+
+}
+.navbar-nav{
+   margin-left: 350px  !important; 
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px;
+    color: white !important;
+}
+.nav-link:hover{
+    text-decoration: underline; 
+}
+.navbar-toggler{
+    background-color: white !important; 
+}
+.navbar-brand >img{
+  height: 70px;
+  width: 70px;
+}
+.carousel-caption > p{
+    color: black !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card{
+    float: left;
+    margin-left: 110px;
+}
+.myimg{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+.myimg img{
+    height: 200px;
+    width: 200px;
+    border-radius: 30%;
+}
+.vl {
+    border-right: 4px solid pink;
+    height: 280px;
+  }
+.nametxt{
+    text-align: center;
+}
+.box{
+    height: 200px;
+    border-right: 3px solid black;
+}
+.box h3{
+    margin-top: 30px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: coral;
+}
+
+@media screen and (max-width:990px ){
+   .navbar-nav{
+       margin-left: 0px !important;
+   }
+}
